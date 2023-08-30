@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 function App() {
   return (
     <div className="App">
-      <Grid container>
+      <Grid item xs={8} container>
       <Navbar />
       <Outlet />
     </Grid>
